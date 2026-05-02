@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Integralab Apps</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #0f172a, #020617);
+      color: white;
+    }
+
+    header {
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 32px;
+      font-weight: bold;
+      background: rgba(0,0,0,0.4);
+      backdrop-filter: blur(10px);
+    }
+
+    header span {
+      color: #22c55e;
+    }
+
+    .subtitle {
+      text-align: center;
+      margin-top: -10px;
+      margin-bottom: 20px;
+      opacity: 0.7;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+      padding: 25px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .card {
+      background: rgba(30, 41, 59, 0.8);
+      border-radius: 20px;
+      padding: 15px;
+      text-align: center;
+      transition: 0.3s;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    }
+
+    .card:hover {
+      transform: translateY(-8px) scale(1.03);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 15px;
+      margin-bottom: 10px;
+    }
+
+    .card h2 {
+      margin: 10px 0;
+      font-size: 22px;
+    }
+
+    .card p {
+      font-size: 14px;
+      opacity: 0.8;
+      margin-bottom: 10px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 20px;
+      background: #22c55e;
+      color: black;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.2s;
+    }
+
+    .btn:hover {
+      background: #16a34a;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      font-size: 13px;
+      opacity: 0.6;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  🚀 Integralab <span>Apps</span>
+</header>
+
+<div class="subtitle">
+  Descarga apps útiles, relajantes y productivas
+</div>
+
+<div class="container">
+
+  <!-- APP 1 -->
+  <div class="card">
+    <img src="https://via.placeholder.com/300x200" alt="Pressly">
+    <h2>Pressly</h2>
+    <p>App antiestrés tipo slime con física relajante</p>
+    <a class="btn" href="TU_LINK_APK_PRESSLY">Descargar APK</a>
+  </div>
+
+  <!-- APP 2 -->
+  <div class="card">
+    <img src="https://via.placeholder.com/300x200" alt="Mindly">
+    <h2>Mindly</h2>
+    <p>Relajación mental con sonidos y enfoque</p>
+    <a class="btn" href="TU_LINK_APK_MINDLY">Descargar APK</a>
+  </div>
+
+  <!-- APP 3 -->
+  <div class="card">
+    <img src="https://via.placeholder.com/300x200" alt="ZenHub">
+    <h2>ZenHub</h2>
+    <p>Productividad, calma y hábitos diarios</p>
+    <a class="btn" href="TU_LINK_APK_ZENHUB">Descargar APK</a>
+  </div>
+
+</div>
+
+<footer>
+  © 2026 Integralab - Todos los derechos reservados
+</footer>
+
+</body>
+</html>
